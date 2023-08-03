@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual College ID Card Generator</title>
+  <link rel="stylesheet" type="text/css" href="idcard.css">
+</head>
+<body>
+<h1 id="subha"><b>ID CARD GENERATOR</b></h1>
+  <div class="container">
+    <div class="form">
+      <h2>Enter Student Details</h2>
+      <input type="text" id="name" placeholder="Enter Name">
+      <input type="text" id="id" placeholder="Enter Collage Name">
+      <input type="text" id="lo" placeholder="Enter Location">
+      <input type="file" id="image" accept="image/*">
+      <button id="generateCardButton">Generate Card</button>
+    </div>
+    <div class="card" id="card">
+      <div class="card-header">
+        <h3 id="cardName"></h3>
+        <div id="cardId"></div>
+        <div id="cardLo"></div>
+      </div>
+      <div class="card-body">
+        <div class="card-image">
+          <img id="cardImage" src="" alt="Student Image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="idcard.js"></script>
+</body>
+</html>

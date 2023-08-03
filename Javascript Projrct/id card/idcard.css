@@ -1,0 +1,59 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form h2 {
+  margin-bottom: 10px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-header h3 {
+  margin-bottom: 5px;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.card-body {
+  text-align: center;
+}
+#subha {
+ text-align: center;
+ background-color: #92a8d1;
+ border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+}
+#generateCardButton
+{
+ background-color: #92a8d1;
+}
